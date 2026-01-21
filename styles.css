@@ -1,0 +1,22 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&family=Tilt+Warp&display=swap');
+
+/* Body text */
+body {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+/* Headings: titles, chapters, section headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 400;
+}
+
+/* Quarto book-specific titles */
+.quarto-title-block .title,
+.quarto-title-block .subtitle,
+.chapter-title {
+  font-family: 'Tilt Warp', cursive;
+}
+

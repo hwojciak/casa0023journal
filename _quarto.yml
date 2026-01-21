@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - week1.qmd
     - summary.qmd
     - references.qmd
 
@@ -17,8 +18,9 @@ bibliography: references.bib
 format:
   html:
     theme:
-      - cosmo
+      - litera
       - brand
+    css: styles.css
   pdf:
     documentclass: scrreprt
 
